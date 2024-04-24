@@ -9,13 +9,10 @@ import SwiftUI
 
 @main
 struct MeditationLogApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
             StartView()
-            //ContentView()
-                //.environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

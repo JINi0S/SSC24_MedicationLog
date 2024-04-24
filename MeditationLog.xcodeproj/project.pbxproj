@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		60EF58422BD8C4D300D21E08 /* MeditationLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58412BD8C4D300D21E08 /* MeditationLogApp.swift */; };
-		60EF58442BD8C4D300D21E08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58432BD8C4D300D21E08 /* ContentView.swift */; };
 		60EF58462BD8C4D400D21E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EF58452BD8C4D400D21E08 /* Assets.xcassets */; };
 		60EF58492BD8C4D400D21E08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EF58482BD8C4D400D21E08 /* Preview Assets.xcassets */; };
-		60EF584B2BD8C4D400D21E08 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF584A2BD8C4D400D21E08 /* Persistence.swift */; };
-		60EF584E2BD8C4D400D21E08 /* MeditationLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60EF584C2BD8C4D400D21E08 /* MeditationLog.xcdatamodeld */; };
 		60EF58582BD8C4D500D21E08 /* MeditationLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58572BD8C4D500D21E08 /* MeditationLogTests.swift */; };
 		60EF58622BD8C4D500D21E08 /* MeditationLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58612BD8C4D500D21E08 /* MeditationLogUITests.swift */; };
 		60EF58642BD8C4D500D21E08 /* MeditationLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58632BD8C4D500D21E08 /* MeditationLogUITestsLaunchTests.swift */; };
@@ -66,11 +63,8 @@
 /* Begin PBXFileReference section */
 		60EF583E2BD8C4D300D21E08 /* MeditationLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EF58412BD8C4D300D21E08 /* MeditationLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationLogApp.swift; sourceTree = "<group>"; };
-		60EF58432BD8C4D300D21E08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		60EF58452BD8C4D400D21E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60EF58482BD8C4D400D21E08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		60EF584A2BD8C4D400D21E08 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		60EF584D2BD8C4D400D21E08 /* MeditationLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeditationLog.xcdatamodel; sourceTree = "<group>"; };
 		60EF58532BD8C4D500D21E08 /* MeditationLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EF58572BD8C4D500D21E08 /* MeditationLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationLogTests.swift; sourceTree = "<group>"; };
 		60EF585D2BD8C4D500D21E08 /* MeditationLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,16 +149,12 @@
 			isa = PBXGroup;
 			children = (
 				60EF58412BD8C4D300D21E08 /* MeditationLogApp.swift */,
-				60EF58432BD8C4D300D21E08 /* ContentView.swift */,
 				60EF58452BD8C4D400D21E08 /* Assets.xcassets */,
-				60EF584A2BD8C4D400D21E08 /* Persistence.swift */,
-				60EF584C2BD8C4D400D21E08 /* MeditationLog.xcdatamodeld */,
 				60EF589D2BD8C57400D21E08 /* Enum */,
 				60EF58A42BD8C57400D21E08 /* Extension */,
 				60EF58A02BD8C57400D21E08 /* Model */,
 				60EF588B2BD8C57400D21E08 /* Service */,
 				60EF588E2BD8C57400D21E08 /* View */,
-				60EF58842BD8C56900D21E08 /* Component */,
 				60EF58472BD8C4D400D21E08 /* Preview Content */,
 			);
 			path = MeditationLog;
@@ -201,8 +191,11 @@
 				60EF58852BD8C56900D21E08 /* WhiteTextView.swift */,
 				60EF58862BD8C56900D21E08 /* BlueButtonView.swift */,
 				60EF58872BD8C56900D21E08 /* CircleLabelView.swift */,
+				60EF58942BD8C57400D21E08 /* TimeControllView.swift */,
+				60EF58982BD8C57400D21E08 /* Video.swift */,
 			);
-			path = Component;
+			name = Component;
+			path = ../Component;
 			sourceTree = "<group>";
 		};
 		60EF588B2BD8C57400D21E08 /* Service */ = {
@@ -217,13 +210,13 @@
 		60EF588E2BD8C57400D21E08 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				60EF58842BD8C56900D21E08 /* Component */,
 				60EF58972BD8C57400D21E08 /* TabRouteView.swift */,
 				60EF58C22BD8D23700D21E08 /* Onboarding */,
 				60EF58C32BD8D25500D21E08 /* Today */,
 				60EF58C62BD8D29C00D21E08 /* Log */,
 				60EF58C52BD8D28A00D21E08 /* Summary */,
 				60EF58C42BD8D26900D21E08 /* Medication */,
-				60EF58C72BD8D2A800D21E08 /* Component */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,15 +295,6 @@
 				60EF58992BD8C57400D21E08 /* LogViewModel.swift */,
 			);
 			path = Log;
-			sourceTree = "<group>";
-		};
-		60EF58C72BD8D2A800D21E08 /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				60EF58942BD8C57400D21E08 /* TimeControllView.swift */,
-				60EF58982BD8C57400D21E08 /* Video.swift */,
-			);
-			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,7 +427,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EF584B2BD8C4D400D21E08 /* Persistence.swift in Sources */,
 				60EF58BB2BD8C57400D21E08 /* Medicine.swift in Sources */,
 				60EF58AA2BD8C57400D21E08 /* RecordService.swift in Sources */,
 				60EF58BC2BD8C57400D21E08 /* DTO.swift in Sources */,
@@ -452,14 +435,12 @@
 				60EF58B82BD8C57400D21E08 /* LogView.swift in Sources */,
 				60EF58AD2BD8C57400D21E08 /* AddMedicineSheetView.swift in Sources */,
 				60EF58BE2BD8C57400D21E08 /* Color++.swift in Sources */,
-				60EF58442BD8C4D300D21E08 /* ContentView.swift in Sources */,
 				60EF58B02BD8C57400D21E08 /* TimeControllView.swift in Sources */,
 				60EF58B72BD8C57400D21E08 /* TodayViewModel.swift in Sources */,
 				60EF58B22BD8C57400D21E08 /* StartView.swift in Sources */,
 				60EF58AE2BD8C57400D21E08 /* OnboardingView.swift in Sources */,
 				60EF58BF2BD8C57400D21E08 /* Font++.swift in Sources */,
 				60EF588A2BD8C56900D21E08 /* CircleLabelView.swift in Sources */,
-				60EF584E2BD8C4D400D21E08 /* MeditationLog.xcdatamodeld in Sources */,
 				60EF58882BD8C56900D21E08 /* WhiteTextView.swift in Sources */,
 				60EF58BA2BD8C57400D21E08 /* LocalizedStringKey.swift in Sources */,
 				60EF58B12BD8C57400D21E08 /* TodayView.swift in Sources */,
@@ -804,19 +785,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		60EF584C2BD8C4D400D21E08 /* MeditationLog.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				60EF584D2BD8C4D400D21E08 /* MeditationLog.xcdatamodel */,
-			);
-			currentVersion = 60EF584D2BD8C4D400D21E08 /* MeditationLog.xcdatamodel */;
-			path = MeditationLog.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 60EF58362BD8C4D300D21E08 /* Project object */;
 }
