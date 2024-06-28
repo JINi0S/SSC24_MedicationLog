@@ -1,6 +1,6 @@
 //
 //  OnboardingView.swift
-//  MeditationLog
+//  MedicationLog
 //
 //  Created by Lee Jinhee on 2/19/24.
 //

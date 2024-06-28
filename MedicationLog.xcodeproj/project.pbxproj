@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60EF58422BD8C4D300D21E08 /* MeditationLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58412BD8C4D300D21E08 /* MeditationLogApp.swift */; };
+		60EF58422BD8C4D300D21E08 /* MedicationLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58412BD8C4D300D21E08 /* MedicationLogApp.swift */; };
 		60EF58462BD8C4D400D21E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EF58452BD8C4D400D21E08 /* Assets.xcassets */; };
 		60EF58492BD8C4D400D21E08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EF58482BD8C4D400D21E08 /* Preview Assets.xcassets */; };
-		60EF58582BD8C4D500D21E08 /* MeditationLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58572BD8C4D500D21E08 /* MeditationLogTests.swift */; };
-		60EF58622BD8C4D500D21E08 /* MeditationLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58612BD8C4D500D21E08 /* MeditationLogUITests.swift */; };
-		60EF58642BD8C4D500D21E08 /* MeditationLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58632BD8C4D500D21E08 /* MeditationLogUITestsLaunchTests.swift */; };
+		60EF58582BD8C4D500D21E08 /* MedicationLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58572BD8C4D500D21E08 /* MedicationLogTests.swift */; };
+		60EF58622BD8C4D500D21E08 /* MedicationLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58612BD8C4D500D21E08 /* MedicationLogUITests.swift */; };
+		60EF58642BD8C4D500D21E08 /* MedicationLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58632BD8C4D500D21E08 /* MedicationLogUITestsLaunchTests.swift */; };
 		60EF58882BD8C56900D21E08 /* WhiteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58852BD8C56900D21E08 /* WhiteTextView.swift */; };
 		60EF58892BD8C56900D21E08 /* BlueButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58862BD8C56900D21E08 /* BlueButtonView.swift */; };
 		60EF588A2BD8C56900D21E08 /* CircleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF58872BD8C56900D21E08 /* CircleLabelView.swift */; };
@@ -51,27 +51,27 @@
 			containerPortal = 60EF58362BD8C4D300D21E08 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 60EF583D2BD8C4D300D21E08;
-			remoteInfo = MeditationLog;
+			remoteInfo = MedicationLog;
 		};
 		60EF585E2BD8C4D500D21E08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60EF58362BD8C4D300D21E08 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 60EF583D2BD8C4D300D21E08;
-			remoteInfo = MeditationLog;
+			remoteInfo = MedicationLog;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		60EF583E2BD8C4D300D21E08 /* MeditationLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		60EF58412BD8C4D300D21E08 /* MeditationLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationLogApp.swift; sourceTree = "<group>"; };
+		60EF583E2BD8C4D300D21E08 /* MedicationLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EF58412BD8C4D300D21E08 /* MedicationLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationLogApp.swift; sourceTree = "<group>"; };
 		60EF58452BD8C4D400D21E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60EF58482BD8C4D400D21E08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		60EF58532BD8C4D500D21E08 /* MeditationLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60EF58572BD8C4D500D21E08 /* MeditationLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationLogTests.swift; sourceTree = "<group>"; };
-		60EF585D2BD8C4D500D21E08 /* MeditationLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60EF58612BD8C4D500D21E08 /* MeditationLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationLogUITests.swift; sourceTree = "<group>"; };
-		60EF58632BD8C4D500D21E08 /* MeditationLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60EF58532BD8C4D500D21E08 /* MedicationLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicationLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EF58572BD8C4D500D21E08 /* MedicationLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationLogTests.swift; sourceTree = "<group>"; };
+		60EF585D2BD8C4D500D21E08 /* MedicationLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicationLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EF58612BD8C4D500D21E08 /* MedicationLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationLogUITests.swift; sourceTree = "<group>"; };
+		60EF58632BD8C4D500D21E08 /* MedicationLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		60EF58852BD8C56900D21E08 /* WhiteTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTextView.swift; sourceTree = "<group>"; };
 		60EF58862BD8C56900D21E08 /* BlueButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueButtonView.swift; sourceTree = "<group>"; };
 		60EF58872BD8C56900D21E08 /* CircleLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLabelView.swift; sourceTree = "<group>"; };
@@ -132,9 +132,9 @@
 		60EF58352BD8C4D300D21E08 = {
 			isa = PBXGroup;
 			children = (
-				60EF58402BD8C4D300D21E08 /* MeditationLog */,
-				60EF58562BD8C4D500D21E08 /* MeditationLogTests */,
-				60EF58602BD8C4D500D21E08 /* MeditationLogUITests */,
+				60EF58402BD8C4D300D21E08 /* MedicationLog */,
+				60EF58562BD8C4D500D21E08 /* MedicationLogTests */,
+				60EF58602BD8C4D500D21E08 /* MedicationLogUITests */,
 				60EF583F2BD8C4D300D21E08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,17 +142,17 @@
 		60EF583F2BD8C4D300D21E08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60EF583E2BD8C4D300D21E08 /* MeditationLog.app */,
-				60EF58532BD8C4D500D21E08 /* MeditationLogTests.xctest */,
-				60EF585D2BD8C4D500D21E08 /* MeditationLogUITests.xctest */,
+				60EF583E2BD8C4D300D21E08 /* MedicationLog.app */,
+				60EF58532BD8C4D500D21E08 /* MedicationLogTests.xctest */,
+				60EF585D2BD8C4D500D21E08 /* MedicationLogUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60EF58402BD8C4D300D21E08 /* MeditationLog */ = {
+		60EF58402BD8C4D300D21E08 /* MedicationLog */ = {
 			isa = PBXGroup;
 			children = (
-				60EF58412BD8C4D300D21E08 /* MeditationLogApp.swift */,
+				60EF58412BD8C4D300D21E08 /* MedicationLogApp.swift */,
 				60EF58452BD8C4D400D21E08 /* Assets.xcassets */,
 				60EF589D2BD8C57400D21E08 /* Enum */,
 				60EF58A42BD8C57400D21E08 /* Extension */,
@@ -161,7 +161,7 @@
 				60EF588E2BD8C57400D21E08 /* View */,
 				60EF58472BD8C4D400D21E08 /* Preview Content */,
 			);
-			path = MeditationLog;
+			path = MedicationLog;
 			sourceTree = "<group>";
 		};
 		60EF58472BD8C4D400D21E08 /* Preview Content */ = {
@@ -172,21 +172,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		60EF58562BD8C4D500D21E08 /* MeditationLogTests */ = {
+		60EF58562BD8C4D500D21E08 /* MedicationLogTests */ = {
 			isa = PBXGroup;
 			children = (
-				60EF58572BD8C4D500D21E08 /* MeditationLogTests.swift */,
+				60EF58572BD8C4D500D21E08 /* MedicationLogTests.swift */,
 			);
-			path = MeditationLogTests;
+			path = MedicationLogTests;
 			sourceTree = "<group>";
 		};
-		60EF58602BD8C4D500D21E08 /* MeditationLogUITests */ = {
+		60EF58602BD8C4D500D21E08 /* MedicationLogUITests */ = {
 			isa = PBXGroup;
 			children = (
-				60EF58612BD8C4D500D21E08 /* MeditationLogUITests.swift */,
-				60EF58632BD8C4D500D21E08 /* MeditationLogUITestsLaunchTests.swift */,
+				60EF58612BD8C4D500D21E08 /* MedicationLogUITests.swift */,
+				60EF58632BD8C4D500D21E08 /* MedicationLogUITestsLaunchTests.swift */,
 			);
-			path = MeditationLogUITests;
+			path = MedicationLogUITests;
 			sourceTree = "<group>";
 		};
 		60EF58842BD8C56900D21E08 /* Component */ = {
@@ -304,9 +304,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60EF583D2BD8C4D300D21E08 /* MeditationLog */ = {
+		60EF583D2BD8C4D300D21E08 /* MedicationLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60EF58672BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MeditationLog" */;
+			buildConfigurationList = 60EF58672BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MedicationLog" */;
 			buildPhases = (
 				60EF583A2BD8C4D300D21E08 /* Sources */,
 				60EF583B2BD8C4D300D21E08 /* Frameworks */,
@@ -316,18 +316,18 @@
 			);
 			dependencies = (
 			);
-			name = MeditationLog;
+			name = MedicationLog;
 			packageProductDependencies = (
 				60EF58C92BD8E21800D21E08 /* Realm */,
 				60EF58CB2BD8E21800D21E08 /* RealmSwift */,
 			);
-			productName = MeditationLog;
-			productReference = 60EF583E2BD8C4D300D21E08 /* MeditationLog.app */;
+			productName = MedicationLog;
+			productReference = 60EF583E2BD8C4D300D21E08 /* MedicationLog.app */;
 			productType = "com.apple.product-type.application";
 		};
-		60EF58522BD8C4D500D21E08 /* MeditationLogTests */ = {
+		60EF58522BD8C4D500D21E08 /* MedicationLogTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60EF586A2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MeditationLogTests" */;
+			buildConfigurationList = 60EF586A2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MedicationLogTests" */;
 			buildPhases = (
 				60EF584F2BD8C4D500D21E08 /* Sources */,
 				60EF58502BD8C4D500D21E08 /* Frameworks */,
@@ -338,14 +338,14 @@
 			dependencies = (
 				60EF58552BD8C4D500D21E08 /* PBXTargetDependency */,
 			);
-			name = MeditationLogTests;
-			productName = MeditationLogTests;
-			productReference = 60EF58532BD8C4D500D21E08 /* MeditationLogTests.xctest */;
+			name = MedicationLogTests;
+			productName = MedicationLogTests;
+			productReference = 60EF58532BD8C4D500D21E08 /* MedicationLogTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		60EF585C2BD8C4D500D21E08 /* MeditationLogUITests */ = {
+		60EF585C2BD8C4D500D21E08 /* MedicationLogUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60EF586D2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MeditationLogUITests" */;
+			buildConfigurationList = 60EF586D2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MedicationLogUITests" */;
 			buildPhases = (
 				60EF58592BD8C4D500D21E08 /* Sources */,
 				60EF585A2BD8C4D500D21E08 /* Frameworks */,
@@ -356,9 +356,9 @@
 			dependencies = (
 				60EF585F2BD8C4D500D21E08 /* PBXTargetDependency */,
 			);
-			name = MeditationLogUITests;
-			productName = MeditationLogUITests;
-			productReference = 60EF585D2BD8C4D500D21E08 /* MeditationLogUITests.xctest */;
+			name = MedicationLogUITests;
+			productName = MedicationLogUITests;
+			productReference = 60EF585D2BD8C4D500D21E08 /* MedicationLogUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -384,7 +384,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60EF58392BD8C4D300D21E08 /* Build configuration list for PBXProject "MeditationLog" */;
+			buildConfigurationList = 60EF58392BD8C4D300D21E08 /* Build configuration list for PBXProject "MedicationLog" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -400,9 +400,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60EF583D2BD8C4D300D21E08 /* MeditationLog */,
-				60EF58522BD8C4D500D21E08 /* MeditationLogTests */,
-				60EF585C2BD8C4D500D21E08 /* MeditationLogUITests */,
+				60EF583D2BD8C4D300D21E08 /* MedicationLog */,
+				60EF58522BD8C4D500D21E08 /* MedicationLogTests */,
+				60EF585C2BD8C4D500D21E08 /* MedicationLogUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,7 +465,7 @@
 				60EF58B42BD8C57400D21E08 /* Video.swift in Sources */,
 				60EF58B62BD8C57400D21E08 /* SummaryView.swift in Sources */,
 				60EF58AF2BD8C57400D21E08 /* SummaryViewModel.swift in Sources */,
-				60EF58422BD8C4D300D21E08 /* MeditationLogApp.swift in Sources */,
+				60EF58422BD8C4D300D21E08 /* MedicationLogApp.swift in Sources */,
 				60EF58A92BD8C57400D21E08 /* MedicineService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,7 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EF58582BD8C4D500D21E08 /* MeditationLogTests.swift in Sources */,
+				60EF58582BD8C4D500D21E08 /* MedicationLogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,8 +482,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EF58622BD8C4D500D21E08 /* MeditationLogUITests.swift in Sources */,
-				60EF58642BD8C4D500D21E08 /* MeditationLogUITestsLaunchTests.swift in Sources */,
+				60EF58622BD8C4D500D21E08 /* MedicationLogUITests.swift in Sources */,
+				60EF58642BD8C4D500D21E08 /* MedicationLogUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,12 +492,12 @@
 /* Begin PBXTargetDependency section */
 		60EF58552BD8C4D500D21E08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60EF583D2BD8C4D300D21E08 /* MeditationLog */;
+			target = 60EF583D2BD8C4D300D21E08 /* MedicationLog */;
 			targetProxy = 60EF58542BD8C4D500D21E08 /* PBXContainerItemProxy */;
 		};
 		60EF585F2BD8C4D500D21E08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60EF583D2BD8C4D300D21E08 /* MeditationLog */;
+			target = 60EF583D2BD8C4D300D21E08 /* MedicationLog */;
 			targetProxy = 60EF585E2BD8C4D500D21E08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -629,7 +629,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MeditationLog/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MedicationLog/Preview Content\"";
 				DEVELOPMENT_TEAM = VJUK3HBJ2M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -643,7 +643,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MeditationLog;
+				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MedicationLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -658,7 +658,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MeditationLog/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MedicationLog/Preview Content\"";
 				DEVELOPMENT_TEAM = VJUK3HBJ2M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -672,7 +672,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MeditationLog;
+				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MedicationLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -691,12 +691,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MeditationLogTests;
+				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MedicationLogTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeditationLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeditationLog";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicationLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedicationLog";
 			};
 			name = Debug;
 		};
@@ -711,12 +711,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MeditationLogTests;
+				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MedicationLogTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeditationLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeditationLog";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicationLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedicationLog";
 			};
 			name = Release;
 		};
@@ -729,12 +729,12 @@
 				DEVELOPMENT_TEAM = VJUK3HBJ2M;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MeditationLogUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MedicationLogUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MeditationLog;
+				TEST_TARGET_NAME = MedicationLog;
 			};
 			name = Debug;
 		};
@@ -747,19 +747,19 @@
 				DEVELOPMENT_TEAM = VJUK3HBJ2M;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MeditationLogUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = JinheeLee.MedicationLogUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MeditationLog;
+				TEST_TARGET_NAME = MedicationLog;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60EF58392BD8C4D300D21E08 /* Build configuration list for PBXProject "MeditationLog" */ = {
+		60EF58392BD8C4D300D21E08 /* Build configuration list for PBXProject "MedicationLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60EF58652BD8C4D500D21E08 /* Debug */,
@@ -768,7 +768,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60EF58672BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MeditationLog" */ = {
+		60EF58672BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MedicationLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60EF58682BD8C4D500D21E08 /* Debug */,
@@ -777,7 +777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60EF586A2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MeditationLogTests" */ = {
+		60EF586A2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MedicationLogTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60EF586B2BD8C4D500D21E08 /* Debug */,
@@ -786,7 +786,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60EF586D2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MeditationLogUITests" */ = {
+		60EF586D2BD8C4D500D21E08 /* Build configuration list for PBXNativeTarget "MedicationLogUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60EF586E2BD8C4D500D21E08 /* Debug */,

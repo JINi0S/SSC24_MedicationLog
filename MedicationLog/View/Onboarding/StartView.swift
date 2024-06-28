@@ -1,6 +1,6 @@
 //
 //  StartView.swift
-//  MeditationLog
+//  MedicationLog
 //
 //  Created by Lee Jinhee on 2/18/24.
 //

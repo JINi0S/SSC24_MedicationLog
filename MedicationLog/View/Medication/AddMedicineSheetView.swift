@@ -1,6 +1,6 @@
 //
 //  AddMedicineSheetView.swift
-//  MeditationLog
+//  MedicationLog
 //
 //  Created by Lee Jinhee on 2/20/24.
 //
